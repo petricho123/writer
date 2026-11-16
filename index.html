@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#28241d"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="style.css"><title>Paper Desk</title><script src="app.js" defer></script></head>
+<body>
+<header><button id="sidebar" aria-label="메모 목록 접기" aria-expanded="true">☰</button><strong>Paper Desk</strong><div class="tools"><button id="tone" aria-label="종이 색 바꾸기">▤</button><button id="lamp" aria-label="조명" aria-pressed="false">☀</button><button id="sound" aria-label="타건음" aria-pressed="true">♪</button></div></header>
+<main><aside><div class="search"><input id="search" type="search" placeholder="메모 검색" aria-label="메모 검색"><button id="add" aria-label="새 메모">＋</button></div><nav id="notes" aria-label="메모 목록"></nav></aside>
+<section class="workspace"><div class="paper"><textarea id="editor" aria-label="메모 본문" placeholder="여기에 글을 쓰세요." spellcheck="false"></textarea><div id="mirror" aria-hidden="true"></div><div id="rail" aria-hidden="true"><span></span></div></div><footer id="status" role="status"></footer></section></main>
+</body></html>
